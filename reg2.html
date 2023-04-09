@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>c:\Users\sumit\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.html
+<body>
+   <form action="">
+    <h1>Payment form</h1>
+    <h2>Contact information</h2>
+    <p>Required fields are followed by *</p>
+    <p>Name:* <input type="text" name="name" required> </p>
+    <fieldset>
+        <legend>Gender *</legend>
+    <p>
+        male<input type="radio" name="gender" id="male" required>
+        female<input type="radio" name="gender" id="female"required>
+    </p>
+    </fieldset>
+    <p>address: <textarea name="address" id="address" cols="100" rows="7"></textarea>
+
+    </p>
+    <p>email:* <input type="email" name="" id="email" required></p>
+<p>Pincode:* <input type="number" name="Pincode" id="Pincode"required></p>
+<h2>Payment information</h2>
+<p>Card Type:*
+    <select name="Card Type " id="Card Type"required>
+        <option value="">--Select a card type</option>
+        <option value="VISA">VISA</option>
+        <option value="master card">master card</option>
+        <option value="rupay">rupay</option>
+
+
+    </select>
+
+</p>
+ <p>Card Number* <input type="number" name="card_number" id="card_number"required> </p>
+ <p>Expiration Date:*<input type="date" name="Expiration_date" id="Expiration_date"required></p>
+ <p>CVV:* <input type="password" name="cvv" id="cvv"required></p>
+ <input type="submit" value="Pay Now">
+   </form> 
+</body>
+</html>
